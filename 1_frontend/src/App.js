@@ -5,6 +5,7 @@ import BlogPage from './Pages/BlogPage';
 import ServicesPage from './Pages/ServicesPage';
 import ContactPage from './Pages/ContactPage';
 import Header from './components/1_header/Header';
+import Footer from './components/3_footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/contact' component={ContactPage} />
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }
