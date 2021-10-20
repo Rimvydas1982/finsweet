@@ -19,8 +19,8 @@ function App() {
           <Route path='/blog' component={BlogPage} />
           <Route path='/contact' component={ContactPage} />
         </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }

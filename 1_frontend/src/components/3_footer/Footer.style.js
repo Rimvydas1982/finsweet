@@ -50,11 +50,6 @@ export const FooterTopRight = styled.div`
   }
 `;
 
-export const FooterBottom = styled.div`
-  height: 157px;
-  background: #1e1b1b;
-`;
-
 export const FirstP = styled.p`
   margin: 0;
   padding-left: 10px;
@@ -69,4 +64,49 @@ export const SecondP = styled(FirstP)`
   line-height: 36px;
   opacity: 1;
   letter-spacing: -0.03;
+`;
+
+export const FooterBottom = styled.div`
+  height: 157px;
+  background: #1e1b1b;
+
+  div {
+    height: 157px;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    padding-left: 0;
+    padding-right: 20px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 0px;
+
+    a {
+      margin-left: 50px;
+      text-decoration: none;
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 28px;
+      color: #ffffff;
+      &:hover {
+        color: #661ce7;
+      }
+    }
+  }
+  span {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #939191;
+  }
 `;
