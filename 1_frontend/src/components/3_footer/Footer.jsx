@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   StyledFooter,
   FooterBottom,
@@ -48,7 +49,35 @@ const Footer = () => {
           </div>
         </FooterTopRight>
       </FooterTop>
-      <FooterBottom></FooterBottom>
+      <FooterBottom>
+        <div>
+          <h1>finsweet</h1>
+          <div>
+            <nav>
+              <ul>
+                <li>
+                  <Link to='/'>Home</Link>
+                </li>
+                <li>
+                  <Link to='/about'>About Us</Link>
+                </li>
+                <li>
+                  <Link to='/services'>Services</Link>
+                </li>
+                <li>
+                  <Link to='/blog'>Blog</Link>
+                </li>
+                <li>
+                  <Link to='/contact'>Contact</Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <span>© Copyright Finsweet {new Date().getFullYear()}</span>
+          </div>
+        </div>
+      </FooterBottom>
     </StyledFooter>
   );
 };
