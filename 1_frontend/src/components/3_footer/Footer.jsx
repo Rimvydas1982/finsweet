@@ -12,6 +12,7 @@ import {
 
 import { BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import { FaTwitter } from 'react-icons/fa';
+import FinSweet from '../../images/SVG/FinSweet';
 
 const Footer = () => {
   return (
@@ -51,7 +52,9 @@ const Footer = () => {
       </FooterTop>
       <FooterBottom>
         <div>
-          <h1>finsweet</h1>
+          <h1>
+            <FinSweet />
+          </h1>
           <div>
             <nav>
               <ul>
