@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../components/4_common/Button';
 import InfoBlock from '../components/4_common/InfoBlock';
 import { AiOutlineClockCircle } from 'react-icons/ai';
+
 //Styles
 import {
   FirstSection,
@@ -12,6 +13,9 @@ import {
   RightBlock,
   TopBadge,
   BottomBadge,
+  SecondSection,
+  SecondSectionRight,
+  SecondSectionLeft,
 } from './HomePage.style';
 
 const HomePage = () => {
@@ -49,6 +53,47 @@ const HomePage = () => {
           </BottomBadge>
         </RightBlock>
       </FirstSection>
+      <SecondSection>
+        <SecondSectionLeft>
+          <h2>We are taking car servicing seriously</h2>
+          <div>
+            <h4>
+              <span></span>
+              Convenient service
+            </h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptatibus, recusandae. Dicta vero error blanditiis ex?
+            </p>
+          </div>
+          <div>
+            <h4>
+              <span>{/* <Icon1 /> */}</span>
+              Expert mechanics
+            </h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptatibus, recusandae. Dicta vero error blanditiis ex?
+            </p>
+          </div>
+          <div>
+            <h4>
+              <span>{/* <Icon3 /> */}</span>
+              Transparent pricing
+            </h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptatibus, recusandae. Dicta vero error blanditiis ex?
+            </p>
+          </div>
+          <div>
+            <h5>
+              Know more about us <span>arrroww</span>
+            </h5>
+          </div>
+        </SecondSectionLeft>
+        <SecondSectionRight>Desine</SecondSectionRight>
+      </SecondSection>
       <InfoBlock />
     </main>
   );
