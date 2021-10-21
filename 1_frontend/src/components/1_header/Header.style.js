@@ -56,8 +56,6 @@ export const NavbarRight = styled.div`
     div {
       display: flex;
       flex-direction: column;
-      p {
-      }
     }
   }
 `;
