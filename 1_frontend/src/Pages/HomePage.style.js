@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 import Engine from '../images/engine.png';
+// import Icon1 from '../images/icon1.png';
+// import Icon2 from '../images/icon2.png';
+// import Icon3 from '../images/icon3.png';
 
 export const FirstSection = styled.section`
   max-width: 1280px;
@@ -116,4 +119,18 @@ export const BottomBadge = styled.p`
       }
     }
   }
+`;
+// -----------------------------------------
+
+export const SecondSection = styled.section`
+  height: 900px;
+  background: #e2e6e9;
+  display: flex;
+`;
+
+export const SecondSectionLeft = styled.section`
+  width: 50%;
+`;
+export const SecondSectionRight = styled.section`
+  width: 50%;
 `;
